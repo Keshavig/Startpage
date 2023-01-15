@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Startpage",
+  "short_name": "Stpage",
+  "version": "1.0",
+  "description": "Overrides the browsers newtab page with a custom startpage.",
+  "author": "Keshav Bhatta",
+
+  "icons": {
+    "64": "icon.png"
+  },
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "permissions": ["storage"]
+}
